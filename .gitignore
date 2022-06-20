@@ -105,3 +105,4 @@ dist
 
 # custom files
 github-personal-token.txt
+*.DS_Store
