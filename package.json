@@ -8,10 +8,14 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
-    "author": {"name": "Telmo", "email": "somebodyceo@gmail.com"},
+    "author": {
+        "name": "Telmo",
+        "email": "somebodyceo@gmail.com"
+    },
     "license": "ISC",
     "dependencies": {
         "config": "^3.3.7",
+        "consign": "^0.1.6",
         "express": "^4.18.1"
     }
 }

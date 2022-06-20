@@ -1,5 +1,6 @@
 const express = require('express');
 const config = require('config');
+const consign = require('consign');
 
 module.exports = () => {
     const app = express();
@@ -10,6 +11,14 @@ module.exports = () => {
     // middlewares
     app.use(express.urlencoded({extended: true}));
     app.use(express.json());
+
+
+    // set endpoints automatically
+    consign({cwd: 'api'})
+        .then('data')
+        .then('controllers')
+        .then('routes')
+        .into(app);
 
     return app;
 };

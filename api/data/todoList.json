@@ -1,0 +1,27 @@
+{
+    "todoList": {
+        "data":[
+            {
+                "id": 1,
+                "description":"this is a simple todo.",
+                "createdOn":"20th June 2022",
+                "dueDate":"23rd June 2022",
+                "doneDate": "1st January 1900"
+            },
+            {
+                "id": 2,
+                "description":"this is another simple todo.",
+                "createdOn":"20th June 2022",
+                "dueDate":"21st June 2022",
+                "doneDate": "1st January 1900"
+            },
+            {
+                "id": 3,
+                "description":"this is a completed todo.",
+                "createdOn":"20th June 2022",
+                "dueDate":"20th June 2022",
+                "doneDate": "20th June 2022"
+            }
+        ]
+    }
+}
